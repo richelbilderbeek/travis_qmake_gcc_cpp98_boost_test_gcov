@@ -21,4 +21,7 @@ More complex builds:
  * Do both a debug and release build: [travis_qmake_gcc_cpp98_boost_test_debug_and_release_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test_debug_and_release_gcov)
 
 Less complex builds:
- * No code coverage: [travis_qmake_gcc_cpp98_boost_test_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test_gcov)
+ * No code coverage: [travis_qmake_gcc_cpp98_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test)
+ * No Boost.Test: [travis_qmake_gcc_cpp98_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_gcov)
+
+

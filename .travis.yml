@@ -1,4 +1,4 @@
-sudo: true
+cd sudo: true
 language: cpp
 compiler: gcc
 addons: 		
@@ -6,13 +6,14 @@ addons:
     packages: libboost-all-dev
 
 before_install: 
-- sudo pip install codecov
+  - sudo pip install codecov
+  - sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-5 90
 
 script: 
- - ./build.sh
- - ./build_test.sh
- - ./get_code_cov.sh
- - codecov
+  - ./build.sh
+  - ./build_test.sh
+  - ./get_code_cov.sh
+  - codecov
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)

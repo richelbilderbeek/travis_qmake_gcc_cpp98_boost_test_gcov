@@ -1,4 +1,8 @@
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Weffc++"
 #include <boost/test/unit_test.hpp>
+#pragma GCC diagnostic pop
+
 #include "my_functions.h"
 
 BOOST_AUTO_TEST_CASE(add_works)

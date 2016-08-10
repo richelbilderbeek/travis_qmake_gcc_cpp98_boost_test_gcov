@@ -43,3 +43,5 @@ test_debug.txt
 travis_qmake_gcc_cpp98_boost_test
 travis_qmake_gcc_cpp98_boost_test_exe
 travis_qmake_gcc_cpp98_boost_test_test
+travis_qmake_gcc_cpp98_boost_test_gcov
+travis_qmake_gcc_cpp98_boost_test_gcov_test

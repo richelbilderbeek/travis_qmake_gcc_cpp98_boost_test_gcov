@@ -1,19 +1,11 @@
-CONFIG += console debug_and_release
-CONFIG -= app_bundle
-QT -= core gui
-TEMPLATE = app
-
-# Shared files
+SOURCES += main.cpp my_functions.cpp
 HEADERS += my_functions.h
-SOURCES += my_functions.cpp
 
 # Unique files
 SOURCES += main_test.cpp my_functions_test.cpp
 
-# Debug and release build
-CONFIG(release, debug|release) {
-  DEFINES += NDEBUG
-}
+# Compile with a high warning level, a warning is an error
+QMAKE_CXXFLAGS += -Wall -Wextra -Weffc++ -Werror
 
 # Boost.Test
 LIBS += -lboost_unit_test_framework

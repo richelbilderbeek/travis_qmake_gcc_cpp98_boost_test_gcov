@@ -1,4 +1,5 @@
-SOURCES += main.cpp my_functions.cpp
+# Shared files
+SOURCES += my_functions.cpp
 HEADERS += my_functions.h
 
 # Unique files

@@ -5,7 +5,7 @@ HEADERS += my_functions.h
 SOURCES += main_test.cpp my_functions_test.cpp
 
 # Compile with a high warning level, a warning is an error
-QMAKE_CXXFLAGS += -Wall -Wextra -Weffc++ -Werror
+QMAKE_CXXFLAGS += -Wall -Wextra -Werror
 
 # Boost.Test
 LIBS += -lboost_unit_test_framework

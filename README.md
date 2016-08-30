@@ -19,6 +19,8 @@ The goal of this project is to have a clean Travis CI build, with specs:
 
 More complex builds:
  * Do both a debug and release build: [travis_qmake_gcc_cpp98_boost_test_debug_and_release_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test_debug_and_release_gcov)
+ * Use C++11: [travis_qmake_gcc_cpp11_boost_test_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test_gcov)
+ * Add OCLint: [travis_qmake_gcc_cpp98_boost_test_gcov_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test_gcov_oclint)
 
 Less complex builds:
  * No code coverage: [travis_qmake_gcc_cpp98_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test)

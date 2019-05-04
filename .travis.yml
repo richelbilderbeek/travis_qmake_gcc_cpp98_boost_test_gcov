@@ -1,6 +1,8 @@
-cd sudo: true
 language: cpp
+dist: xenial
+sudo: true
 compiler: gcc
+
 addons: 		
   apt: 		
     packages: libboost-all-dev
